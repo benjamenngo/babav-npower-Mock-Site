@@ -1,0 +1,14 @@
+/*---------------Content Area-----------------*/
+#content{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: column;
+	overflow: auto;
+	margin: 170px 10% 30px;
+}
+.formatTitle{
+	color:#37b8eb;
+	font-size: 45px;
+	margin:0 0 20px;
+}

@@ -1,0 +1,32 @@
+.sitemap{
+	display: inherit;
+	flex-direction: row;
+	flex:1;
+}
+#sitemap {
+	display: inherit;
+	flex-direction: row;
+	flex:1; 
+
+}
+
+.sitemap p{
+margin:0px 50px 25px 0px;
+}
+
+.formatTitle{
+	display:block;
+	flex-direction:column;
+	color:#37b8eb;
+	font-size: 45px;
+	margin:0 0 20px;
+}
+#content{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: column;
+	overflow: auto;
+	margin: 170px 10% 100px;
+
+}

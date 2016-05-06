@@ -1,0 +1,40 @@
+/*---------------Content Area-----------------*/
+#content{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: column;
+	overflow: auto;
+	margin: 170px 10% 30px;
+	
+}
+.formatTitle{
+	color:#37b8eb;
+	font-size: 45px;
+	margin:0 0 20px;
+}
+#locationBox{
+display:flex;
+flex-direction:row;
+}
+#map{
+width:500px;
+height:300px;
+margin:25px 150px 0;}
+
+@media screen and (max-width: 1050px){
+#locationBox{
+display:flex;
+flex-direction:column;
+}
+
+#map{
+width:400px;
+height:300px;
+margin:25px 0px 0;}
+}
+#locationText{
+display:flex;
+flex-direction: column;
+justify-content: flex-start; /* or flex-end to be bottom-aligned */
+}

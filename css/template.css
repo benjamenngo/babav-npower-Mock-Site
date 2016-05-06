@@ -1,0 +1,9 @@
+/*---------------Content Area-----------------*/
+#content{
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: column;
+	overflow: auto;
+	margin: 0% 10%;
+}
